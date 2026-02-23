@@ -23,6 +23,15 @@ main {
     margin-bottom: 24px;
 }
 
-.badge {
+span {
     background-color: #F4D04E;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
 }
