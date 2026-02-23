@@ -19,7 +19,9 @@ main {
     width: 384px;
     border-radius: 24px;
 
-    border-color: black;
+    border: 1px solid #111111;
+    ;
+    box-shadow: 8px 8px 0px #111111;
 }
 
 .illustration {
@@ -40,13 +42,13 @@ span {
     border-radius: 4px;
     font-family: 'Figtree';
     font-weight: 800;
-    color: #6B6B6B;
+    color: #111111;
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 0px;
     margin-bottom: 12px;
-
 }
+
 
 .content {
     display: flex;
@@ -75,6 +77,12 @@ h1 {
     line-height: 150%;
     letter-spacing: 0px;
     margin-bottom: 12px;
+    color: #111111;
+}
+
+h1:hover {
+    color: #F4D04E;
+
 }
 
 h2 {
@@ -84,6 +92,7 @@ h2 {
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 0px;
+    color: #111111;
 }
 
 .date {
@@ -94,6 +103,7 @@ h2 {
     line-height: 150%;
     letter-spacing: 0px;
     margin-bottom: 12px;
+    color: #111111;
 }
 
 .author img {
