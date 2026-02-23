@@ -98,7 +98,7 @@ h1:hover {
     color: #F4D04E;
 }
 
-h2 {
+.name {
     /* preset 3 bold */
     font-family: 'Figtree';
     font-weight: 800;
